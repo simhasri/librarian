@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.pyc
+data/raw/
+data/processed/
+data/chroma_db/
+.DS_Store
+frontend/node_modules/
+frontend/.next/
