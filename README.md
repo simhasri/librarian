@@ -48,7 +48,7 @@ Answer + Confidence Badge
 
 ## Project Structure
 
-
+```
 librarian/
 ├── backend/
 │   ├── ingestion/
@@ -66,7 +66,7 @@ librarian/
 │   └── demo.png              # Demo screenshot
 └── requirements.txt
 
-
+```
 ---
 
 ## Quickstart
