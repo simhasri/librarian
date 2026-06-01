@@ -1,4 +1,3 @@
-````
 #Librarian — RAG-Powered Semantic Search Engine
 
 Semantic search and Q&A over classic literature using Anthropic's Contextual Retrieval, hybrid search, and faithfulness evaluation.
@@ -31,7 +30,7 @@ Naive RAG chunks documents without context — a chunk saying *"he felt the wall
 
 ## Architecture
 
-```
+
 User Query
     ↓
 Hybrid Search (BM25 + Vector Similarity)
@@ -43,13 +42,13 @@ Claude Generation (grounded in retrieved passages)
 Faithfulness Check (hallucination detection)
     ↓
 Answer + Confidence Badge
-```
+
 
 ---
 
 ## Project Structure
 
-```
+
 librarian/
 ├── backend/
 │   ├── ingestion/
@@ -66,7 +65,7 @@ librarian/
 ├── assets/
 │   └── demo.png              # Demo screenshot
 └── requirements.txt
-```
+
 
 ---
 
@@ -134,4 +133,4 @@ Books sourced from [Project Gutenberg](https://www.gutenberg.org):
 Most RAG tutorials embed raw chunks. Librarian uses Anthropic's Contextual Retrieval — Claude prepends a document-aware summary to each chunk before embedding. Combined with hybrid search and a faithfulness checker that scores every answer, this is a production-grade pipeline, not a tutorial project.
 
 ---
-````
+
