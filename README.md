@@ -128,9 +128,4 @@ Books sourced from [Project Gutenberg](https://www.gutenberg.org):
 
 ---
 
-## What Makes This Different
-
-Most RAG tutorials embed raw chunks. Librarian uses Anthropic's Contextual Retrieval — Claude prepends a document-aware summary to each chunk before embedding. Combined with hybrid search and a faithfulness checker that scores every answer, this is a production-grade pipeline, not a tutorial project.
-
----
 
