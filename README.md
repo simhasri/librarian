@@ -1,4 +1,4 @@
-#Librarian — RAG-Powered Semantic Search Engine
+# Librarian — RAG-Powered Semantic Search Engine
 
 Semantic search and Q&A over classic literature using Anthropic's Contextual Retrieval, hybrid search, and faithfulness evaluation.
 
@@ -30,7 +30,7 @@ Naive RAG chunks documents without context — a chunk saying *"he felt the wall
 
 ## Architecture
 
-
+```
 User Query
     ↓
 Hybrid Search (BM25 + Vector Similarity)
@@ -43,7 +43,7 @@ Faithfulness Check (hallucination detection)
     ↓
 Answer + Confidence Badge
 
-
+```
 ---
 
 ## Project Structure
